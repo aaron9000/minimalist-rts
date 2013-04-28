@@ -1,0 +1,5 @@
+.DS_Store
+build/
+products/
+launch.sh
+.idea
