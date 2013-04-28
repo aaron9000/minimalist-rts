@@ -1,0 +1,78 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" type="text/css" href="styles/reset.css" />
+<link rel="stylesheet" type="text/css" href="styles/styles.css" />
+<!-- generated html -->
+<script language="JavaScript" src="scripts/buzz.js"></script>
+<script language="JavaScript" src="scripts/seedrandom.js"></script>
+<script language="JavaScript" src="scripts/stacktrace.js"></script>
+<script language="JavaScript" src="scripts/Consts.js"></script>
+<script language="JavaScript" src="scripts/Util.js"></script>
+<script language="JavaScript" src="scripts/MathUtil.js"></script>
+<script language="JavaScript" src="scripts/CanvasUtil.js"></script>
+<script language="JavaScript" src="scripts/CanvasManager.js"></script>
+<script language="JavaScript" src="scripts/PathFactory.js"></script>
+<script language="JavaScript" src="scripts/AssetManager.js"></script>
+<script language="JavaScript" src="scripts/MovementFactory.js"></script>
+<script language="JavaScript" src="scripts/ObjectFactory.js"></script>
+<script language="JavaScript" src="scripts/ObjectManager.js"></script>
+<script language="JavaScript" src="scripts/InterfaceManager.js"></script>
+<script language="JavaScript" src="scripts/GameManager.js"></script>
+<script language="JavaScript" src="scripts/Game.js"></script>
+<!-- generated html -->
+
+<head>
+	<title>Minimalist RTS</title>
+</head>
+<body id="body" onload="Game.executeOnLoad();" style="width:100%;">
+	<h1>
+		Minimalist RTS
+	</h1>
+    <div id="menuContainer" style="text-align:center;  display:none;">
+        <h2>Select a difficulty:</h2>
+        <div>
+            <a href="#" onclick="InterfaceManager.trivialClick()">Trivial</a>
+        </div>
+        <div>
+            <a href="#" onclick="InterfaceManager.easyClick()">Easy</a>
+        </div>
+        <div>
+            <a href="#" onclick="InterfaceManager.mediumClick()">Medium</a>
+        </div>
+        <div>
+            <a href="#" onclick="InterfaceManager.difficultClick()">Difficult</a>
+        </div>
+    </div>
+    <div id="gameContainer" style="display:none;">
+        <div style="text-align:center; margin: auto;">
+            <h2 id="moneyText">
+                <img src="images/MoneyIcon.png"/>
+                <span id="money">0</span>
+            </h2>
+        </div>
+        <div id="container" style="text-align:center;">
+            <canvas id="mainCanvas" style="position:relative; visibility: hidden;"></canvas>
+        </div>
+        <div style="text-align:center; margin: auto;" id="buttonContainer">
+            <div class="spacedButtonContainer">
+                <a  href="#" id="attack0" class="spacedButton" onclick="InterfaceManager.attackRow(0);">
+                    <img src="images/AttackButton.png" align="center"/>
+                </a>
+                <a href="#" id="attack1" class="spacedButton" onclick="InterfaceManager.attackRow(1);">
+                    <img src="images/AttackButton.png" align="center"/>
+                </a>
+                <a href="#" id="attack2" class="spacedButton" onclick="InterfaceManager.attackRow(2);">
+                    <img src="images/AttackButton.png" align="center"/>
+                </a>
+                <a href="#" id="attack3" class="spacedButton" onclick="InterfaceManager.attackRow(3);">
+                    <img src="images/AttackButton.png" align="center"/>
+                </a>
+                <span class="stretch"></span>
+            </div>
+        </div>
+    </div>
+    <h2 style="text-align:center; color:#ffffff;" id="loadingText">loading...</h2>
+    <div id="buffer" style="visibility: hidden;"></div>
+</body>
+</html>
