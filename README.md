@@ -4,7 +4,7 @@ Minimalist RTS
 About
 ===
 
-My entry for the Ludum Dare #26 72hr submission. The prompt was "Minimalism". A runnable version of the game is in the example folder.
+My entry for the Ludum Dare #26 48hr submission. The prompt was "Minimalism". A runnable version of the game is in the example folder.
 
 Build it yourself
 ===
