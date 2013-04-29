@@ -64,6 +64,7 @@ var CanvasManager = function(){
         canvas.setAttribute("id", id);
         _bufferElement.appendChild(canvas);
         _canvasDict[id] = canvas;
+        Util.setElementVisibility(canvas, false);
         return canvas;
     }
     function _destroyAllCanvases(){

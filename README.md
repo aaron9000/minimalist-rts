@@ -26,6 +26,7 @@ Develop compile process:
  - copy markup/ folder
  - copy styles/ folder
  - copy images/ folder
+ - copy sounds/ folder
  - replace <!--scripts--> tag in default.html with script imports
  - replace /*images*/ tag with the files within the images/ folder
  - replace /*sounds*/ tag with the files within the sounds/ folder
@@ -36,6 +37,7 @@ Release compile process:
  - copy markup/ folder
  - copy styles/ folder
  - copy images/ folder
+ - copy sounds/ folder
  - replace <!--scripts--> tag in default.html with import of compiled.js
  - replace /*images*/ tag with the files within the images/ folder
  - replace /*sounds*/ tag with the files within the sounds/ folder

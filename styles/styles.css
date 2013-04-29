@@ -11,8 +11,8 @@ body{
 
 h1{
 	background:rgb(40, 40, 40);
-	color:rgb(80, 80, 80);
-	font-size: 80px;
+	color:rgb(60, 60, 60);
+	font-size: 48px;
 	margin-bottom: 0px;
 	padding: 12px 0 12px;
 	text-align: center;
@@ -22,19 +22,17 @@ h1{
 
 h2{
 	color:#FFFFFF;
-	font-size: 24px;
+	font-size: 32px;
 	text-align: center;
 	font-weight: bold;
 	font-family:"Arial";
 }
 h3{
-	color:#FFFFFF;
-	font-size: 24px;
+	color:#CCCCCC;
+	font-size: 16px;
 	text-align: center;
-	font-weight: bold;
-	padding-top: 8px;
-	padding-bottom: 8px;
 	font-family:"Arial";
+	padding-top: 128px;
 }
 
 
@@ -56,7 +54,7 @@ p{
 
 
 a{
-	font-size: 22px;
+	font-size: 32px;
 	color:rgb(160, 160, 160);
 	background:transparent;
 	outline:none;
